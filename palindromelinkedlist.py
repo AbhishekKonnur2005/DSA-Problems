@@ -6,4 +6,3 @@ class Solution:
             values.append(current.val)
             current=current.next
         return values==values[::-1]
-print(Solution().isPalindrome(head))
