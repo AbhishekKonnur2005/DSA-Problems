@@ -1,5 +1,5 @@
 class Solution:
-    def preorderTraversal(self,node):
+    def preorderTraversal(self,root):
         result=[]
         def preorder(node):
             if node is None:
