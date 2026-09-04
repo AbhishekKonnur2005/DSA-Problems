@@ -5,7 +5,7 @@ class Solution:
             if node is None:
                 return
             result.append(node.val)
-            preorder(node,left)
+            preorder(node.left)
             preorder(node.right)
         preorder(root)
         return result
